@@ -2,6 +2,14 @@
 
 Weather.ai is not just another weather app—it's your personal weather intelligence platform, designed for people who think ahead. By fusing real-time meteorological data with cutting-edge artificial intelligence, Weather.ai offers hyper-accurate, deeply personalized weather updates that empower you to plan with confidence.
 
+---
+
+### 🌐 Live Demo
+
+[Click here to view the app](https://jovial-conkies-90ba97.netlify.app/)
+
+---
+
 ## 🚀 Why Weather.ai?
 
 Traditional weather apps only scratch the surface. Weather.ai uses advanced machine learning to analyze multiple data sources, historical weather trends, and your preferences. The result? Forecasts that aren’t just data—they’re meaningful insights tailored to your location, habits, and needs.

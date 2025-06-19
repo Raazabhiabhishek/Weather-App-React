@@ -1,6 +1,6 @@
 import { WeatherData, SearchResult, Units } from '../types/weather';
 
-const API_KEY = 'YOUR_API_KEY';
+import.meta.env.VITE_WEATHER_API_KEY;
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 const GEO_URL = 'https://api.openweathermap.org/geo/1.0';
 
@@ -11,7 +11,7 @@ export const getWeatherData = async (
   lon: number,
   units: Units = 'metric'
 ): Promise<WeatherData> => {
-  if (API_KEY === 'YOUR_API_KEY') {
+  if (!API_KEY) {
     console.warn('Using mock weather data. Please add your OpenWeatherMap API key.');
     return mockWeatherData;
   }
@@ -68,7 +68,7 @@ export const getWeatherData = async (
 };
 
 export const searchLocation = async (query: string): Promise<SearchResult[]> => {
-  if (API_KEY === 'YOUR_API_KEY') {
+  if (!API_KEY) {
     console.warn('Using mock location data. Please add your OpenWeatherMap API key.');
     return [
       { name: 'New Delhi', country: 'IN', lat: 28.6139, lon: 77.2090 },
@@ -127,7 +127,7 @@ export const getLocationByCoords = async (
   lat: number,
   lon: number
 ): Promise<SearchResult> => {
-  if (API_KEY === 'YOUR_API_KEY') {
+  if (!API_KEY) {
     console.warn('Using mock reverse geocoding data. Please add your OpenWeatherMap API key.');
     return { name: 'New Delhi', country: 'IN', lat: 28.6139, lon: 77.2090 };
   }

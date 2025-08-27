@@ -1,78 +1,36 @@
-# 🌤 Weather.ai – Smarter Forecasts with the Power of AI
+#  Weather.AI 🌦️
 
-Weather.ai is not just another weather app—it's your personal weather intelligence platform, designed for people who think ahead. By fusing real-time meteorological data with cutting-edge artificial intelligence, Weather.ai offers hyper-accurate, deeply personalized weather updates that empower you to plan with confidence.
+A modern, responsive weather application built with React, TypeScript, and Tailwind CSS. It provides real-time weather data, a 5-day forecast, and features a dynamic UI that changes based on the weather conditions.
 
----
-
-### 🌐 Live Demo
-
-[Click here to view the app](https://jovial-conkies-90ba97.netlify.app/)
+**Live Demo:** [**https://weather-app-react-raazabhiabhishek.vercel.app/**](https://weather-app-react-raazabhiabhishek.vercel.app/) 👈 *(Replace with your Vercel URL if different)*
 
 ---
 
-## 🚀 Why Weather.ai?
+### Screenshot
+![Weather App Screenshot](https://i.imgur.com/your-screenshot-url.png) 
+*(To get a URL for your screenshot, you can upload your image to a site like [imgur.com](https://imgur.com) and paste the link here)*
 
-Traditional weather apps only scratch the surface. Weather.ai uses advanced machine learning to analyze multiple data sources, historical weather trends, and your preferences. The result? Forecasts that aren’t just data—they’re meaningful insights tailored to your location, habits, and needs.
+---
 
-> “Weather.ai doesn’t just tell you if it’s sunny. It helps you decide if it’s a good day for a run, a picnic, or if you should grab an umbrella on your way out.”
+### Features
+- **Real-time Weather Data:** Get the current temperature, humidity, wind speed, and conditions for any city.
+- **5-Day Forecast:** View the weather forecast for the upcoming five days.
+- **Geolocation:** Automatically fetch weather data for the user's current location.
+- **Dynamic Backgrounds:** The UI and background gradient change dynamically based on the weather (Clear, Clouds, Rain, Thunderstorm with lightning effect).
+- **Responsive Design:** A clean and modern UI that works on all screen sizes.
 
-## 🔍 Key Features
+---
 
-- **AI-Enhanced Forecasts**  
-  Smarter predictions powered by machine learning—forecasts that get sharper and more personalized over time.
+### Tech Stack
+- **Front-End:** React, TypeScript, Vite
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **API:** OpenWeatherMap API
 
-- **Real-Time Alerts**  
-  Be the first to know about rain, storms, temperature swings, or any sudden changes—wherever you are.
+---
 
-- **Location-Based Insights**  
-  Hyperlocal, city- and neighborhood-level forecasts. Your weather, your way, wherever you go.
-
-- **Clean, Intuitive UI**  
-  A sleek, modern interface with beautiful visuals, simple summaries, and all the details you need at a glance.
-
-- **Hourly, Daily & Weekly Views**  
-  Zoom in for the next hour, or look ahead to the weekend—stay prepared for every moment.
-
-## 🌍 Who Is Weather.ai For?
-
-- Commuters who need to dodge surprise showers  
-- Travelers who want peace of mind on the road or in the air  
-- Event Planners staying a step ahead of unpredictable skies  
-- Anyone who wants weather to work smarter for them  
-
-## 🛠️ Tech Stack
-
-- **React + TypeScript** for robust, scalable UI  
-- **Vite** for lightning-fast builds and development  
-- **Tailwind CSS** for instant, beautiful styling  
-- **AI/ML integrations** (expandable for your own models!)
-
-## 🚦 Quick Start
-
+### How To Run
+To run this project locally, clone the repository and run the following commands:
 ```bash
-git clone https://github.com/yourusername/Weather.Ai.git
-cd Weather.Ai
 npm install
 npm run dev
-```
-
-Head to [http://localhost:3000](http://localhost:3000) and experience the future of forecasting.
-
-## 🗂 Project Structure
-
-```
-.bolt/                # Bolt configs (if using)
-dist/                 # Production build
-src/                  # Your source code
-index.html            # App entry point
-tailwind.config.js    # Styling config
-vite.config.ts        # Build tool config
-...
-```
-
-## 📢 Let AI Forecast Your Day
-
-Weather.ai isn’t just about knowing the weather—it’s about understanding what it means for you.  
-Plan smarter, live better, and never get caught in the rain again.
-
-**Let AI forecast your day — with Weather.ai.**
